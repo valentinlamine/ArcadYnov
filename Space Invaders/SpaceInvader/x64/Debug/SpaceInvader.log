@@ -1,2 +1,18 @@
 ﻿  Main.cpp
+<<<<<<< Updated upstream
   SpaceInvader.vcxproj -> C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\x64\Debug\SpaceInvader.exe
+=======
+D:\arcadYnov\Space_invaders\ArcadYnov\Space Invaders\SpaceInvader\perso.cpp(12,1): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+  Perso.cpp
+D:\arcadYnov\Space_invaders\ArcadYnov\Space Invaders\SpaceInvader\Perso.cpp(12,1): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+  Génération de code en cours...
+  SpaceInvader.vcxproj -> D:\arcadYnov\Space_invaders\ArcadYnov\Space Invaders\x64\Debug\SpaceInvader.exe
+>>>>>>> Stashed changes

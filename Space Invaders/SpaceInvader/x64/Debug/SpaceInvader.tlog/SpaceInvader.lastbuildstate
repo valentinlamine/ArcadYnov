@@ -1,2 +1,7 @@
+<<<<<<< Updated upstream
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.33.31629:TargetPlatformVersion=10.0.19041.0:
 Debug|x64|C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.35.32215:TargetPlatformVersion=10.0.22000.0:
+Debug|x64|D:\arcadYnov\Space_invaders\ArcadYnov\Space Invaders\|
+>>>>>>> Stashed changes

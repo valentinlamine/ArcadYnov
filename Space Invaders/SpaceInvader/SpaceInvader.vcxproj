@@ -71,6 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+<<<<<<< Updated upstream
     <IncludePath>C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\lib;C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\lib;$(LibraryPath)</LibraryPath>
     <PublicIncludeDirectories>C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\include;C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\include;$(PublicIncludeDirectories)</PublicIncludeDirectories>
@@ -79,6 +80,16 @@
     <IncludePath>C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
     <PublicIncludeDirectories>C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\include;</PublicIncludeDirectories>
+=======
+    <IncludePath>D:\arcadYnov\Space_invaders\SpaceInvaders\include;C:\Users\phili\Documents\travail2\ArcadYnov\Nouveau dossier\Space Invaders\SpaceInvader\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\arcadYnov\Space_invaders\SpaceInvaders\lib;C:\Users\phili\Documents\travail2\ArcadYnov\Nouveau dossier\Space Invaders\SpaceInvader\lib;C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\lib;$(LibraryPath)</LibraryPath>
+    <PublicIncludeDirectories>D:\arcadYnov\Space_invaders\SpaceInvaders\include;C:\Users\phili\Documents\travail2\ArcadYnov\Nouveau dossier\Space Invaders\SpaceInvader\include;C:\Users\phili\Documents\travail2\ArcadYnov\SpaceInvader\SpaceInvader\include;$(PublicIncludeDirectories)</PublicIncludeDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\arcadYnov\Space_invaders\SpaceInvaders\include;C:\Users\phili\Documents\travail2\ArcadYnov\Nouveau dossier\Space Invaders\SpaceInvader\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\arcadYnov\Space_invaders\SpaceInvaders\lib;C:\Users\phili\Documents\travail2\ArcadYnov\Nouveau dossier\Space Invaders\SpaceInvader\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <PublicIncludeDirectories>D:\arcadYnov\Space_invaders\SpaceInvaders\include;C:\Users\phili\Documents\travail2\ArcadYnov\Nouveau dossier\Space Invaders\SpaceInvader\include;</PublicIncludeDirectories>
+>>>>>>> Stashed changes
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -140,6 +151,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Perso.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
